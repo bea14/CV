@@ -184,3 +184,14 @@ div.titresection h4 {
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
+
+div.listelangue {
+	text-align: left;
+	margin-left: 10px;
+	display: flex;
+}
+
+div.listelangue img {
+	margin: 0px 5px 0px 0px;
+	padding-left: 10px;
+}
