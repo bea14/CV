@@ -95,10 +95,12 @@ main h1 {
 main h2 {
 }
 
-main hr.titre {
-	margin: -15px 0px 60px 0px;
-	padding: 0px 40px;
-	width: 5%;
+main .titre::after{
+	content: '';
+	display: block;
+	width: 10%;
+	height: 2px;
+	background: #3949AB;
 }
 
 section {
