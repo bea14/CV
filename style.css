@@ -40,7 +40,7 @@ p {
 }
 
 a, a:visited {
-	color: rgb(66, 66, 66)f;
+	color: rgb(66, 66, 66);
 	text-decoration: none;
 }
 
@@ -232,28 +232,14 @@ main p {
 	font-weight: bold;
 }
 
-/*titres parties principales*/
-
-#langues {
+/*partie divers*/
+.recommend {
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
-#competences {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#competences h5 {
-	font-weight: bold;
-	margin-top: 30px;
-}
-
-.listelangue {
-	text-align: left;
-	margin-left: 10px;
-	display: flex;
-}
 
 
 /*********************************************/
@@ -290,25 +276,11 @@ main p {
 		text-align: left;
 	}
 
-	#langues {
-		width: 50%;
-		display: block;
-		line-height: 1.5;
-	}
-	
-	#competences {
-		width: 50%;
+	.recommend {
+		flex: 1.2;
+		margin-left: 20px;
 		position: relative;
-		display: block;
-	}
-
-	#competences h5 {
-		font-weight: bold;
-		margin-top: 5px;
-	}
-
-	#competences p {
-		margin-bottom: 10px;
+		width: 462px;
 	}
 }
 
@@ -396,11 +368,6 @@ main p {
 		margin-bottom: 0px;
 		flex-basis: auto;
 	}
-	 
-	.listelangue {
-		text-align: left;
-		margin-left: 10px;
-		display: flex;
-	}
+	
 }
 	
