@@ -104,7 +104,7 @@ h4 {
 
 aside {
 	width: auto;
-	background-color: #c8e6c9;
+	background-color: #c8e6f9;
 	color: rgb(66, 66, 66);
 	display: flex;
 	flex-direction: column;
@@ -167,13 +167,13 @@ main h2 {
 
 /*couleur du prénom */
 .couleurnom {
-	color: #2e7d32;
+	color: #2e327d;
 }
 
 /* trait après les noms et prénoms et titre CV*/
 main .titredeco {
 	border-bottom: solid;
-	border-color: #2e7d32;
+	border-color: #2e327d;
 }
 
 /*photo pour la version mobile*/
@@ -194,7 +194,7 @@ section section {
 }
 
 .titresection {
-	border-bottom: solid #2e7d32;
+	border-bottom: solid #2e327d;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
@@ -214,7 +214,7 @@ main p {
 }
 
 .titresection .fas {
-	color: #4caf50;
+	color: #4c50af;
 }
 
 .date, .formation {
@@ -225,7 +225,7 @@ main p {
 }
 
 .date .fas,.date .far {
-	color: #4caf50;
+	color: #4c60af;
 }
 
 .name {
@@ -309,7 +309,7 @@ main p {
 	
 	aside {
 		width: 32%;
-		background-color: #c8e6c9;
+		background-color: #c8e6f9;
 		color: rgb(66, 66, 66);
 	}
 
@@ -356,7 +356,7 @@ main p {
 	}
 	
 	.titresection {
-		border-bottom: solid #2e7d32;
+		border-bottom: solid #2e327d;
 		width: 100%;
 		justify-content: left;
 		align-items: center;
